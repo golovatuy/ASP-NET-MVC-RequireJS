@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+		<meta name="viewport" content="width=device-width" />
+		<title>ASP.NET MVC and RequireJS</title>
+</head>
+<body>
+		<div>
+		@RenderBody()
+		</div>
+
+	@* Script section *@
+	<script data-main="@Url.Content("~/Scripts/config")" src="@Url.Content("~/Scripts/libs/require.js")"></script>
+	@RenderSection("Scripts", false)
+
+</body>
+</html>
