@@ -15,7 +15,7 @@ Scripts<br/>
 </p>
 
 <h2>Site Structure</h2>
-localhost/ - home page which<br/> 
+localhost/ - home page<br/> 
 localhost/pageone - page 1<br/>
 localhost/pagetwo - page 2<br/>
 
