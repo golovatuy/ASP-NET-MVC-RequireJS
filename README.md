@@ -4,8 +4,8 @@ Example of ASP.NET MVC app with RequireJS
 <p>
 Scripts<br/>
 |--libs<br/>
-|   |--jquery-2.1.4.min.js<br/>
-|   |--require.js<br/>
+|---|--jquery-2.1.4.min.js<br/>
+|---|--require.js<br/>
 |--app.js<br/>
 |--config.js<br/>
 |--DependencyModule.js<br/>
