@@ -6,22 +6,12 @@ using System.Web.Mvc;
 
 namespace ASP_NET_MVC_RequireJS.Controllers
 {
-	public class DefaultController : Controller
+	public class HomeController : Controller
 	{
 		// GET: Default
 		public ActionResult Index()
 		{
 				return View();
-		}
-		// GET: Default
-		public ActionResult IndexSecond()
-		{
-			return View();
-		}
-		// GET: Default
-		public ActionResult IndexThird()
-		{
-			return View();
 		}
 	}
 }

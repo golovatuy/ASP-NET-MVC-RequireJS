@@ -14,11 +14,10 @@ namespace ASP_NET_MVC_RequireJS
 			routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
 			routes.MapRoute(
-				"Default",                                              // Route name
-				"{controller}/{action}",                           // URL with parameters
-				new { controller = "Default", action = "Index", id = "" }  // Parameter defaults
+				name: "Home",
+				url: "/{controller}/{action}/{id}",
+				defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
 			);
-
 		}
 
 		protected void Application_Start()

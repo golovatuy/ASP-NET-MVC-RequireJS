@@ -83,17 +83,19 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\config.js" />
-    <Content Include="Scripts\Default\DependencyModule.js" />
-    <Content Include="Scripts\Default\Index.js" />
-    <Content Include="Scripts\Default\IndexSecond.js" />
-    <Content Include="Scripts\Default\IndexThird.js" />
+    <Content Include="Scripts\DependencyModule.js" />
+    <Content Include="Scripts\HomeModule.js" />
+    <Content Include="Scripts\ModuleTwo.js" />
+    <Content Include="Scripts\ModuleOne.js" />
     <Content Include="Scripts\libs\jquery-2.1.4.min.js" />
     <Content Include="Scripts\libs\require.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PageOneController.cs" />
+    <Compile Include="Controllers\PageTwoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -105,9 +107,9 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\_ViewStart.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Default\Index.cshtml" />
-    <Content Include="Views\Default\IndexSecond.cshtml" />
-    <Content Include="Views\Default\IndexThird.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\PageOne\Index.cshtml" />
+    <Content Include="Views\PageTwo\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
