@@ -3,15 +3,15 @@ Example of ASP.NET MVC app with RequireJS
 <h2>JavaScript Structure</h2>
 <p>
 Scripts<br/>
-|-libs<br/>
-|  |-jquery-2.1.4.min.js<br/>
-|  |-require.js<br/>
-|-app.js<br/>
-|-config.js<br/>
-|-DependencyModule.js<br/>
-|-HomeModule.js<br/>
-|-ModuleOne.js<br/>
-|-ModuleTwo.js<br/>
+|--libs<br/>
+|   |--jquery-2.1.4.min.js<br/>
+|   |--require.js<br/>
+|--app.js<br/>
+|--config.js<br/>
+|--DependencyModule.js<br/>
+|--HomeModule.js<br/>
+|--ModuleOne.js<br/>
+|--ModuleTwo.js<br/>
 </p>
 
 <h2>Site Structure</h2>
