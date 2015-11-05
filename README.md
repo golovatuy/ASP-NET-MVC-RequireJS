@@ -32,5 +32,4 @@ On the web pages inside "Script" section we place only modules which are needed.
   require(['HomeModule']);
 </script>
 
-
-
+We could place global logic for whole application inside "app.js"
